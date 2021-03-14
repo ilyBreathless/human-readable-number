@@ -1,5 +1,4 @@
 module.exports = function toReadable (number) {
-  module.exports = function toReadable (number) {
     let arrFrom1To19 = [' one', ' two', ' three', ' four', ' five', ' six', ' seven', ' eight', ' nine', ' ten', ' eleven', ' twelve', ' thirteen', ' fourteen', ' fifteen', ' sixteen', ' seventeen', ' eighteen', ' nineteen']
     let arrTens = [' twenty', ' thirty', ' forty', ' fifty', ' sixty', ' seventy', ' eighty', ' ninety']
     let res = []
@@ -23,4 +22,4 @@ module.exports = function toReadable (number) {
     return res.join('').trim()
 }
 
-}
+
